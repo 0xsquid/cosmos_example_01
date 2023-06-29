@@ -1,0 +1,20 @@
+{
+  "name": "encoding-sandpit",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "dev-mainnet": "ts-node index-mainnet.ts"
+  },
+  "dependencies": {
+    "@0xsquid/sdk": "1.4.6-beta.0",
+    "@cosmjs/stargate": "^0.30.1",
+    "@types/node": "^18.11.10",
+    "@types/typescript": "^2.0.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  }
+}
