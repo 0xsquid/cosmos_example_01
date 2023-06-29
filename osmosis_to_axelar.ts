@@ -10,9 +10,9 @@ dotenv.config();
 const fromChainId = "osmo-test-5";
 const fromToken = "osmo";
 const fromAmount = "5555555";
-const toChainId = "dydxprotocol-testnet"; //avalanche fuji testnet
+const toChainId = "axelar-testnet-lisbon-3";
 const toToken = "usdc";
-const toAddress = "dydx1zqnudqmjrgh9m3ec9yztkrn4ttx7ys64qa96wl";
+const toAddress = "axelar... axelar comsos address here";
 
 const mnemonic = process.env.MNEMONIC!;
 if (!mnemonic)
